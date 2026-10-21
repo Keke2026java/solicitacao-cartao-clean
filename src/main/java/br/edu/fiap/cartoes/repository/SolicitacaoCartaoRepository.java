@@ -24,7 +24,7 @@ public interface SolicitacaoCartaoRepository {
     List<SolicitacaoCartao> listarPorTitularEStatus(Long usuarioId ,
                                                     StatusSolicitacao status);
 
-    boolean exxistePendente(Long usuarioId, Long tipoCartaoId);
+    boolean existePendente(Long usuarioId, Long tipoCartaoId);
 
 
 }
