@@ -248,7 +248,7 @@ Estrutura de testes pronta, sem exercícios resolvidos: `src/test/java`. Como ev
 - Swagger coerente e requests.http atualizado com IDs reais, sem commitar tokens.
 - README atualizado pelo grupo com as decisões de implementação.
 
-- ##Validação manual pelo Swagger####
+## Validação Manual pelo Swagger 
 
 - Cadastro válido :201
 - Email inválido: 400
