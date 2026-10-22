@@ -1,3 +1,12 @@
+# Grupo:
+-Albert Lima de Melo
+-Fabio Monteiro Chrispim
+-Higo Otaviano da Rocha
+-Katia Vivi Kuhn
+-Keila Guimel Correa Valle
+-Kenia Santos Sabaliauskas
+-Michelle Lima Cabral
+
 # Desafio Solicitação de Cartões
 
 Projeto-base de exercício, inspirado na agência bancária Quarkus. JDK **25.0.2**, Quarkus **3.40.1**, Maven, JPA com EntityManager, JDBC, JWT HS256 e BCrypt.
