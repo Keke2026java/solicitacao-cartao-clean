@@ -248,6 +248,23 @@ Estrutura de testes pronta, sem exercícios resolvidos: `src/test/java`. Como ev
 - Swagger coerente e requests.http atualizado com IDs reais, sem commitar tokens.
 - README atualizado pelo grupo com as decisões de implementação.
 
+- ##Validação manual pelo Swagger####
+
+- Cadastro válido :201
+- Email inválido: 400
+- Email duplicado: 409
+- Login com senha errada: 401
+- Acesso protegido sem token ou com token inválido: 401
+- Criação de solicitação : 201
+- Solicitação pendente duplicada: 409
+- Cancelamento: 200
+- Cancelamento repetido ou emissão após cancelamento: 409
+- Emissão de cartão: 201
+- Emissão repetida: 409, sem duplicar o cartão
+- Consulta e listagem de solicitações: 200
+- Acesso à solicitação de outro usuário: 404
+- Listagem de cartões restrita ao usuário autenticado.
+
 ## Referências oficiais
 
 - Quarkus ORM/JPA: https://quarkus.io/guides/hibernate-orm
